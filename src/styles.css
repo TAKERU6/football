@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: aqua;
+}
+
+.message {
+  font-weight: bold;
+  box-sizing: border-box;
+  width: 100%;
+  color: black;
+  background: white;
+  border: 3px;
+  border-radius: 5px;
+  box-shadow: 0 0 0 5px;
+}
+
+.result {
+  color: red;
+  font-weight: bold;
+}
