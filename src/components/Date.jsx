@@ -15,7 +15,7 @@ class Date extends Component {
     const isWomen = gender === "women";
     const age = form.age;
     const isKids = age < 12;
-    const isYoung = 12 < age < 18;
+    const isYoung = 12 <= age && age < 18;
     const isAdult = 18 < age;
     return (
       <div className="message">
